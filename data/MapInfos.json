@@ -1,0 +1,11 @@
+[
+null,
+{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":421,"scrollY":363.5},
+{"id":2,"expanded":true,"name":"普通の町","order":2,"parentId":0,"scrollX":1053.3333333333333,"scrollY":990.6666666666666},
+{"id":3,"expanded":true,"name":"城","order":3,"parentId":0,"scrollX":1032,"scrollY":1409.3333333333333},
+{"id":4,"expanded":true,"name":"遺跡","order":4,"parentId":0,"scrollX":1053.3333333333333,"scrollY":990.6666666666666},
+{"id":5,"expanded":false,"name":"塔1F","order":5,"parentId":0,"scrollX":1053.3333333333333,"scrollY":990.6666666666666},
+{"id":6,"expanded":false,"name":"オアシス","order":6,"parentId":0,"scrollX":543.6,"scrollY":1003.8},
+{"id":7,"expanded":false,"name":"溶岩の洞窟","order":7,"parentId":0,"scrollX":1072,"scrollY":1430.6666666666667},
+{"id":8,"expanded":false,"name":"砂漠の廃墟","order":8,"parentId":0,"scrollX":1053.3333333333333,"scrollY":990.6666666666666}
+]
