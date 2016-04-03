@@ -1704,6 +1704,7 @@ if (!Imported.StandPictureSettingM) {
 				var ary = pic[1][3].filter(function(x,i,self){
 					return self.indexOf(x) === i;
 				});
+				if (!ary.contains(0)){ ary.push(0) }
 				for (var j=0;j<ary.length;j++) {
 					var fileName = pic[0] + '_' + ary[j];
 					if (fileName.match(/\//)){
