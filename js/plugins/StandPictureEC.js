@@ -522,7 +522,7 @@ if (!Imported.StandPictureSettingM) {
 			obj.by = this.y;
 			if (obj.relative){
 				obj.x = obj.bx + obj.x;
-				obj.y = obj.bx + obj.y;
+				obj.y = obj.by + obj.y;
 			}
 			obj.xSpeed = (obj.x - obj.bx) / obj.mDur;
 			obj.ySpeed = (obj.y - obj.by) / obj.mDur;
@@ -1153,7 +1153,7 @@ if (!Imported.StandPictureSettingM) {
 				}
 			});
 			if (ary[3] && ary[3] !== 0){
-				this._spriteStPics[id].setMove(ary[2],ary[2],ary[3],true);
+				this._spriteStPics[id].setMove(ary[1],ary[2],ary[3],true);
 			}else{
 				this._spriteStPics[id].x = rx;
 				this._spriteStPics[id].y = ry;
